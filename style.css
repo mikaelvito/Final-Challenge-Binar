@@ -169,30 +169,32 @@ body {
     position: relative;
 }
 
-.carousel-inner {
+.rockpaper {
+    width: 43%;
     position: absolute;
-    left: 500px;
+    left: 615px;
     top: 250px;
 }
 
 .carousel-indicators {
     position: absolute;
-    left: 350px;
-    top: 550px;
+    left: 270px;
+    top: 580px;
 }
 
 .carousel-control-prev {
     position: absolute;
-    left: 380px;
-    top: 420px;
+    left: 320px;
+    top: 413px;
 }
 
 .carousel-control-next {
     position: absolute;
-    right: 25px;
+    right: 30px;
     top: 420px;
 }
 
+/* page 3 */
 .the-features {
     background-image: url('assets/features.jpg');
     background-position: center;
@@ -209,5 +211,31 @@ body {
 .the-features-subtitle {
     color: white;
     font-size: 30px;
+}
+
+.the-features-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.the-features-title {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 190px;
+    right: 310px;
+
+}
+
+.the-features-subtitle {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 220px;
+    right: 250px;
 }
 
