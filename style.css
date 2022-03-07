@@ -409,7 +409,7 @@ body {
 /* page 5 */
 
 .top-scores {
-    background-image: url('assets/blackpaper.jpg');
+    background-image: url('assets/blackpaper2.jpg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -598,4 +598,89 @@ body {
     right: 350px; 
 }
    
+/* page 6 */
+.newsletter {
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/blackpaper2\ copy.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.newsletter-container {
+    display: flex;
+    height: 100%;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    top: 8px;  
+}
+
+.newsletter-title {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 200px;
+    right: 575px;
+    word-spacing: 5px;
+    max-width: 200px;
+    gap: 1px;
+}
+
+.newsletter-subtitle {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 260px;
+    right: 680px;
+    letter-spacing: 5px;
+    max-width: 100px;
+}
+
+.newsletter-paragraph {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    right: 70px;
+    max-width: 700px;
+}
+
+.btn-3 {
+    height: 50px;
+    width: 250px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffc107;
+    color: black;
+    position: absolute;
+    right: 100px;
+    top: 580px;
+}
+
+.form-label {
+    position: absolute;
+    top: 580px;
+    color: #ffc107;
+    z-index: 2;
+    right: 615px;
+
+}
+
+.form-control {
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    margin-right: 100px;
+    top: 580px;
+    background-color: rgb(51, 51, 51);
+    border: 0;
+    padding-top: 20px;
+    right: 270px;
+    z-index: 1;
+}
+
+
 
