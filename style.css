@@ -227,7 +227,7 @@ body {
     font-size: 25px;
     position: absolute;
     top: 190px;
-    right: 310px;
+    right: 320px;
 
 }
 
@@ -239,3 +239,43 @@ body {
     right: 250px;
 }
 
+.the-features-top-stepper {
+    color:#ffc107;
+    font-size: 20px;
+    position: absolute;
+    top: 400px;
+    right: 290px;
+}
+
+.the-features-stepper-p {
+    color: white;
+    font-size: 12px;
+    max-width: 250px;
+    position: absolute;
+    top: 435px;
+    right: 230px;
+    word-spacing: 5px;
+}
+
+.stepper {
+    position: absolute;
+    width: 1.2%;
+    right: 520px;
+    top: 405px;
+}
+
+.the-features-stepper-suit {
+    color: #ffc107;
+    font-size: 20px;
+    position: absolute;
+    right: 380px;
+    top: 535px;
+}
+
+.the-features-stepper-tbd {
+    color: #ffc107;
+    font-size: 20px;
+    position: absolute;
+    right: 440px;
+    top: 590px;
+}
