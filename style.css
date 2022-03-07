@@ -279,3 +279,129 @@ body {
     right: 440px;
     top: 590px;
 }
+/* page 4 */
+.system {
+    background-image: url('assets/requirements.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.system-container {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.my-computer {
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    word-spacing: 6px;
+    top: 60px;
+}
+
+.system-title {
+    color: white;
+    font-size: 60px;
+    max-width: 50px;
+    position: absolute;
+    left: 5px;
+    top: 200px;
+}
+
+.table {
+    position: absolute;
+    width: 40%;
+    left: 10px;
+    top: 360px;
+}
+
+.os {
+    color: #ffc107;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 370px;
+}
+
+.windows {
+    color: white;
+    font-size: 16px;
+    max-width: 250px;
+    position: absolute;
+    top: 415px;
+    left: 30px;
+}
+
+.processor {
+    color: #ffc107;
+    font-size: 30px;
+    position: absolute;
+    left: 290px;
+    top: 370px;
+}
+
+.intel {
+    color: white;
+    font-size: 16px;
+    max-width: 250px;
+    position: absolute;
+    top: 415px;
+    left: 290px;
+}
+
+.memory {
+    color: #ffc107;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 510px;
+}
+
+.ram {
+    color: white;
+    font-size: 16px;
+    max-width: 250px;
+    position: absolute;
+    top: 550px;
+    left: 33px;
+}
+
+.storage {
+    color: #ffc107;
+    font-size: 30px;
+    position: absolute;
+    left: 290px;
+    top: 510px;
+}
+
+.space {
+    color: white;
+    font-size: 16px;
+    max-width: 250px;
+    position: absolute;
+    top: 550px;
+    left: 290px;
+}
+
+.graphics {
+    color: #ffc107;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 650px;
+}
+
+.nvidia {
+    color: white;
+    font-size: 16px;
+    max-width: 350px;
+    position: absolute;
+    top: 700px;
+    left: 30px;
+}
