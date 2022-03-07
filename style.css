@@ -405,3 +405,197 @@ body {
     top: 700px;
     left: 30px;
 }
+
+/* page 5 */
+
+.top-scores {
+    background-image: url('assets/blackpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-scores-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    top: 8px;
+}
+
+.top-scores-title {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 380px;
+    left: 10px;
+}
+
+.top-scores-subtitle {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    max-width: 300px;
+}
+
+.btn-2 {
+    height: 65px;
+    width: 250px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffc107;
+    color: black;
+    position: absolute;
+    left: 20px;
+    top: 530px;
+}
+
+.testimonial-1 {
+    position: absolute;
+    width: 30%;
+    right: 100px;
+    top: 180px;
+}
+
+.foto-evan {
+    width: 80px;
+    clip-path: circle();
+    position: absolute;
+    right: 380px;
+    top: 180px;
+}
+
+.evan {
+    color: #ffc107;
+    position: absolute;
+    font-size: 20px;
+    top: 210px;
+    right: 265px;
+}
+
+.gamer {
+    color: grey;
+    position: absolute;
+    font-size: 14px;
+    top: 240px;
+    right: 300px;
+}
+
+.highlights {
+    color:  white;
+    position: absolute;
+    font-size: 16px;
+    top: 300px;
+    right: 160px;
+}
+
+.date-evan {
+    color: grey;
+    position: absolute;
+    font-size: 12px;
+    top: 335px;
+    right: 385px; 
+}
+
+.testimonial-2 {
+    position: absolute;
+    width: 30%;
+    right: 500px;
+    top: 390px;
+}
+
+.foto-jada {
+    width: 130px;
+    clip-path: circle();
+    position: absolute;
+    right: 760px;
+    top: 410px;
+}
+
+.jada {
+    color: #ffc107;
+    position: absolute;
+    font-size: 20px;
+    top: 430px;
+    right: 650px;
+}
+
+.nerd {
+    color: grey;
+    position: absolute;
+    font-size: 14px;
+    top: 460px;
+    right: 680px;
+}
+
+.survival {
+    color:  white;
+    position: absolute;
+    font-size: 16px;
+    top: 510px;
+    right: 520px;  
+    max-width: 350px;
+}
+
+.date-jada {
+    color: grey;
+    position: absolute;
+    font-size: 12px;
+    top: 560px;
+    right: 790px; 
+}
+
+.testimonial-3 {
+    position: absolute;
+    width: 30%;
+    right: 100px;
+    top: 600px;
+}
+
+.foto-aaron {
+    width: 80px;
+    clip-path: circle();
+    position: absolute;
+    right: 380px;
+    top: 610px;
+}
+
+.aaron {
+    color: #ffc107;
+    position: absolute;
+    font-size: 20px;
+    top: 640px;
+    right: 210px;
+}
+
+.uproxx {
+    color: grey;
+    position: absolute;
+    font-size: 14px;
+    top: 670px;
+    right: 310px;
+}
+
+.snoop {
+    color:  white;
+    position: absolute;
+    font-size: 16px;
+    top: 720px;
+    right: 120px;  
+    max-width: 350px;
+}
+
+.date-aaron {
+    color: grey;
+    position: absolute;
+    font-size: 12px;
+    top: 770px;
+    right: 350px; 
+}
+   
+
